@@ -1,0 +1,24 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#background {
+    height: 725px;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#river-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr)
+}
